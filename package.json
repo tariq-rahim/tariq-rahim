@@ -1,0 +1,48 @@
+{
+  "name": "tariq-rahim-profile",
+  "version": "1.0.0",
+  "description": "GitHub profile page and README generator for Tariq Rahim - Computer Vision Engineer & AI/ML Enthusiast",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html",
+    "test": "start tests/config-test.html",
+    "debug": "start tests/debug-config.html",
+    "update": "node scripts/update-readme.js",
+    "update-all": "scripts/update-all.bat",
+    "serve": "npx http-server . -p 3000 -o"
+  },
+  "keywords": [
+    "github-profile",
+    "portfolio",
+    "computer-vision",
+    "ai-ml",
+    "web-development",
+    "javascript",
+    "html-css"
+  ],
+  "author": {
+    "name": "Tariq Rahim",
+    "email": "tariqrahim885@gmail.com",
+    "url": "https://tariqrahim.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tariq-rahim/tariq-rahim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tariq-rahim/tariq-rahim/issues"
+  },
+  "homepage": "https://tariq-rahim.github.io/tariq-rahim/",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ]
+}
