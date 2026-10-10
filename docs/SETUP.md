@@ -21,10 +21,10 @@ This repository contains a comprehensive GitHub profile page that serves as both
 ### 2. GitHub Pages Setup
 To host the HTML version on GitHub Pages:
 
-1. Go to your repository settings
-2. Scroll down to "Pages" section
-3. Select "Deploy from a branch"
-4. Choose "main" branch and "/ (root)" folder
+1. Commit the workflow in `.github/workflows/deploy-pages.yml`
+2. Go to repository **Settings** → **Pages**
+3. Set **Source** to **GitHub Actions**
+4. Push to `main` (or run the workflow manually from the Actions tab)
 5. Your page will be available at: `https://tariq-rahim.github.io/tariq-rahim/`
 
 ### 3. Customization

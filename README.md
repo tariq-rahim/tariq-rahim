@@ -47,6 +47,11 @@ Visit my portfolio website at: [https://tariq-rahim.github.io/tariq-rahim/](http
 
 The main portfolio is now accessible via `index.html` for GitHub Pages compatibility.
 
+### GitHub Pages Deployment
+
+- This repository includes a GitHub Actions workflow at `.github/workflows/deploy-pages.yml` that deploys the static site from the repository root on every push to `main` and via manual dispatch.
+- If this is the first Pages deployment, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+
 ## 🚀 About Me
 
 I'm a passionate **Computer Vision Engineer** and **AI/ML Enthusiast** with a strong background in software development. I love working on cutting-edge projects that push the boundaries of what's possible with artificial intelligence and computer vision.
